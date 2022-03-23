@@ -3,6 +3,6 @@
     public class ErroDto
     {
         public string Status { get; set; }
-        public string Mensage { get; set; }
+        public string Mensagem { get; set; }
     }
 }

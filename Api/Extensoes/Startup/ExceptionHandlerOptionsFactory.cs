@@ -37,7 +37,7 @@ namespace Api.Extensoes.Startup
 
         private static async Task HandleExceptionAsync(HttpContext context, string mensage, HttpStatusCode httpStatusCode)
         {
-            var err = new ErroDto { Status = ((int)httpStatusCode).ToString(), Mensage = mensage };
+            var err = new ErroDto { Status = ((int)httpStatusCode).ToString(), Mensagem = mensage };
             context.Response.StatusCode = (int)httpStatusCode;
             context.Response.ContentType = "application/json";
             var result = JsonConvert.SerializeObject(err, new JsonSerializerSettings { ContractResolver = new CamelCasePropertyNamesContractResolver() });
