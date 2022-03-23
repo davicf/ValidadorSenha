@@ -27,7 +27,7 @@ namespace CasosDeUso.ValidarSenha
         private void UsarRegraMinimoCaracteres()
         {
             RuleFor(dto => dto.Senha)
-                .MinimumLength(8)
+                .MinimumLength(9)
                 .WithMessage("Senha precisa ter um mínimo de 9 caracteres");
         }
 
