@@ -25,3 +25,9 @@
 + XUnit
 + FluentValidation
 + FluentAssert
+
+## Rodando o Projeto
+### Utilizando o Visual Studio
+Processo todo automatizado pela IDE
+### Link IDE
+https://visualstudio.microsoft.com/pt-br/downloads/
