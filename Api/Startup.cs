@@ -37,7 +37,6 @@ namespace Api
             app.UseExceptionHandler(ExceptionHandlerOptionsFactory.Criar());
 
             app.UseCors("MyPolicies");
-            app.UseHttpsRedirection();
 
             app.UseRouting();
 
